@@ -1,13 +1,6 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
- */
 package com.mycompany.peluqueriacanina.igu;
 
-/**
- *
- * @author CRISTIAN DIEGO
- */
+
 public class CargarDatos extends javax.swing.JFrame {
 
     /**
@@ -92,24 +85,32 @@ public class CargarDatos extends javax.swing.JFrame {
         jLabel10.setForeground(new java.awt.Color(0, 0, 255));
         jLabel10.setText("Observaciones:");
 
+        txtColor.setBackground(new java.awt.Color(51, 51, 51));
         txtColor.setForeground(new java.awt.Color(255, 255, 255));
 
+        txtNombre.setBackground(new java.awt.Color(51, 51, 51));
         txtNombre.setForeground(new java.awt.Color(255, 255, 255));
 
+        txtRaza.setBackground(new java.awt.Color(51, 51, 51));
         txtRaza.setForeground(new java.awt.Color(255, 255, 255));
 
+        txtCelDuenio.setBackground(new java.awt.Color(51, 51, 51));
         txtCelDuenio.setForeground(new java.awt.Color(255, 255, 255));
 
+        txtNombreDuenio.setBackground(new java.awt.Color(51, 51, 51));
         txtNombreDuenio.setForeground(new java.awt.Color(255, 255, 255));
 
+        txtObservaciones.setBackground(new java.awt.Color(51, 51, 51));
         txtObservaciones.setColumns(20);
         txtObservaciones.setForeground(new java.awt.Color(255, 255, 255));
         txtObservaciones.setRows(5);
         jScrollPane1.setViewportView(txtObservaciones);
 
+        cmbAlergico.setBackground(new java.awt.Color(51, 51, 51));
         cmbAlergico.setForeground(new java.awt.Color(255, 255, 255));
         cmbAlergico.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "-", "Si", "No" }));
 
+        cmbAtenEsp.setBackground(new java.awt.Color(51, 51, 51));
         cmbAtenEsp.setForeground(new java.awt.Color(255, 255, 255));
         cmbAtenEsp.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "-", "Si", "No" }));
 
