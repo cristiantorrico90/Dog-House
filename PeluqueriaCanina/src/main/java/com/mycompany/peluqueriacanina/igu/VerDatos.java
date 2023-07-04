@@ -156,6 +156,7 @@ public class VerDatos extends javax.swing.JFrame {
     private void cargarTabla() {
         //definir el modelo que tenga la tabla
         DefaultTableModel tabla = new DefaultTableModel() {
+            
             public boolean isCellEditable (int row, int colum){
                 return false;
             }
