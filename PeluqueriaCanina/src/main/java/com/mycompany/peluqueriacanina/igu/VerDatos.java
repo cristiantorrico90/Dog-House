@@ -172,7 +172,9 @@ public class VerDatos extends javax.swing.JFrame {
        //recorrer la lista y mostrar cada uno de los elementos de la tabla
        if (listaMascotas != null){
            for (Mascota masco : listaMascotas){
-               Object[] objeto = {masco.getNum_cliente(), masco.getNombre(), masco.getColor(), masco.getRaza(), masco.getAtencion_especial(), masco.getAlergico(), masco.getUnduenio().getNombre(), masco.getUnduenio().getCelDuenio()};
+               Object[] objeto = {masco.getNum_cliente(), masco.getNombre(), masco.getColor(), 
+                   masco.getRaza(), masco.getAtencion_especial(), masco.getAlergico(), 
+                   masco.getUnduenio().getNombre(), masco.getUnduenio().getCelDuenio()};
                
                tabla.addRow(objeto);
            }  
