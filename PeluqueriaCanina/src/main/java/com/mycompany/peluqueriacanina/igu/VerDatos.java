@@ -7,7 +7,7 @@ import javax.swing.table.DefaultTableModel;
 
 
 public class VerDatos extends javax.swing.JFrame {
-    Controladora control;
+    Controladora control = null;
     
     public VerDatos() {
         control =new Controladora();
@@ -157,6 +157,7 @@ public class VerDatos extends javax.swing.JFrame {
         //definir el modelo que tenga la tabla
         DefaultTableModel tabla = new DefaultTableModel() {
             
+            @override
             public boolean isCellEditable (int row, int colum){
                 return false;
             }
@@ -167,7 +168,7 @@ public class VerDatos extends javax.swing.JFrame {
         tabla.setColumnIdentifiers(titulos);
         
         //carga de datos desde la base de datos
-       List <Mascota> listaMascotas = control.traerMascotas();
+        List <Mascota> listaMascotas = control.traerMascotas();
        
        //recorrer la lista y mostrar cada uno de los elementos de la tabla
        if (listaMascotas != null){

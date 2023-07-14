@@ -18,4 +18,13 @@ public class ControladoraPersistencia {
         
     }
     
+    public List <Mascota> traerMascota(){
+        
+        return mascoJpa.findMascota();
+    
+    
+    }
+    
 }
+
+    
